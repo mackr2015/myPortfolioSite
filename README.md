@@ -21,4 +21,11 @@ gulp
 src/theme/js/canvas.v2.js
 ```
 
+### Update Nov 2024
+
+- corrected the social icons size
+- added more projects and their logos
+- deleted Nanotech
+- added no auto browser open to gulpfile and ignore messages when see in the browser
+
 

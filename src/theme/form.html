@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="style-1.css"> -->
+    <!-- <link rel="stylesheet" href="style-2.css"> -->
+    <!-- <link rel="stylesheet" href="style-3.css"> -->
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="p-4 modal-body" id="confirmationModal">
+                <div class="p-sm-4">
+                        <form>
+                            <div class="pt-2">
+                                <table class="mb-4 w-100 border-top">
+                                    <tbody>
+                                        <tr>
+                                            <td class="border-bottom py-1">
+                                                <div class="d-flex align-items-center"><img class="d-inline-block me-2"
+                                                        src="https://asset-tidycal.b-cdn.net/img/icon-calendar.svg"
+                                                        alt="Date">
+                                                    <div><small>Thursday, November 21st, at 12:30 pm</small></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="mb-2"></div>
+                                <div class="d-flex align-items-center mb-2"><img class="d-inline-block me-2"
+                                        src="https://asset-tidycal.b-cdn.net/img/icon-globe.svg" alt="Timezone">
+                                    <div><small>Europe/Budapest</small></div>
+                                </div>
+                                <div class="d-flex align-items-center mb-2"><img class="d-inline-block me-2"
+                                        src="https://asset-tidycal.b-cdn.net/img/icon-clock.svg" alt="Duration">
+                                    <div><small>20 minutes</small></div>
+                                </div>
+                                <div class="pt-3 border-bottom mb-3 w-100"></div>
+                                <div class="row">
+                                    <div class="col-lg mb-3"><label class="form-label small" for="name">Your
+                                            Name:</label><input type="text" name="name" id="name" class="form-control"
+                                            required="" value="Marijan Mack Raicevic"></div>
+                                    <div class="col-lg mb-3"><label class="form-label small" for="email">Your
+                                            Email:</label><input type="email" name="email" id="email"
+                                            class="form-control" required="" value="makiraicevic@gmail.com"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874837">1. What
+                                            is your
+                                            desired hourly rate?</label>
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-3"><input type="text" class="form-control"
+                                                    id="question-874837" value="40 Euro"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874838">2. In
+                                            what
+                                            country are you located?</label>
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-3"><input type="text" class="form-control"
+                                                    id="question-874838" value="Montenegro"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874839">3. If
+                                            you were
+                                            referred by a current Quickly Hire Pro, please enter their name.</label>
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-3"><input type="text" class="form-control"
+                                                    id="question-874839" value="Keith Cullen"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874840">4. Do
+                                            you have
+                                            experience building custom WordPress plugins?</label><textarea rows="3"
+                                            class="form-control" id="question-874840">Yes I do.</textarea></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874841">As a
+                                            developer,
+                                            what is your preferred page builder?</label><textarea rows="3"
+                                            class="form-control"
+                                            id="question-874841">I typically reserve the use of page builders for projects where the client specifically requires them. In such cases, I prefer using Elementor or Gutenberg. However, I always recommend using WordPress’s native block editor whenever possible, and I prefer to extend functionality through custom code to ensure better performance, scalability, and maintainability.</textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874842">6. What
+                                            experience do you have integrating third party applications with WordPress?
+                                            I.e. a
+                                            CRM like HubSpot, a payment gateway, an email automation system like
+                                            MailChimp,
+                                            etc.</label><textarea rows="3" class="form-control"
+                                            id="question-874842">I have experience integrating third-party applications with WordPress, including platforms like PayPal, Stripe, WooCommerce, MailChimp, and others. Depending on the complexity of the project, I typically handle the integration by configuring the necessary API connections and then build custom features on top of these integrations, often developing bespoke plugins or widgets to meet the specific needs of the project.</textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874843">7. What
+                                            is the
+                                            most recent WordPress action/filter hook that you have
+                                            used?</label><textarea rows="3" class="form-control"
+                                            id="question-874843">I can name a few and their use depends on the project. 
+filter hook for easier CSS class management for the navigation nav_menu_css_class,
+action hook get_footer for inserting custom scripts or code before the footer template file is loaded,
+filter hook style_loader_tag for filtering HTML link tag, used for customization of the styles included in the head.</textarea></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874844">8. What
+                                            is the
+                                            most recent issue you’ve been tasked to troubleshoot on a WordPress site?
+                                            Paragraph
+                                            Required</label><textarea rows="3" class="form-control"
+                                            id="question-874844">The most recent issue a client asked me to troubleshoot involved inspecting and providing a solution for a specific batch of images on their WordPress site. The images were not displaying after a recent site migration.
+
+I accessed the server via SSH and checked the file permissions for the uploads directory, as well as the subdirectories and image files. After addressing the permissions, I also verified that the current database had the correct image references in the appropriate tables.</textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874845">9. When
+                                            you’re
+                                            building new sites/pages, how do you currently make sure the elements are
+                                            all
+                                            mobile-responsive? Paragraph Required 10. Do you have experience using CSS
+                                            frameworks like Bootstrap, Foundation or Tailwind? Checkboxes
+                                            Required</label><textarea rows="3" class="form-control"
+                                            id="question-874845">Ensuring a website is mobile-responsive is essential for every project I work on. For layout and a minimalist approach, I rely on CSS frameworks like Bootstrap and Tailwind, as they provide a solid foundation for responsive design.
+However, beyond that, I prefer to code the rest of the design and functionality myself, tailoring the site to the specific needs of the project.
+From a design perspective, it's crucial that the website's elements are flexible enough to adapt to different screen sizes. This means elements like images, icons, and fonts must be scalable, ensuring a seamless user experience across devices.</textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874846">11. Do
+                                            you have
+                                            experience using JS frameworks like Vue, Angular, React or Next.js?
+                                            Checkboxes
+                                            Required</label><textarea rows="3" class="form-control"
+                                            id="question-874846">I have worked with React and Vue in my career.</textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874847">12. Do
+                                            you have
+                                            experience using alternatives to PHP languages like Ruby, Python, Java, C#
+                                            etc?
+                                            Checkboxes Required</label><textarea rows="3" class="form-control"
+                                            id="question-874847"
+                                            style="height: 88px;">I have worked with JavaScript, Laravel, jQuery, React, Vue.</textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874848">13. Do
+                                            you have
+                                            experience with version control systems like Github and
+                                            Bitbucket?</label><textarea rows="3" class="form-control"
+                                            id="question-874848">Yes I do. I am mostly working with Github but have been using Bitbucket before.</textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874849">14.
+                                            Please
+                                            describe your familiarity with the WordPress REST API.</label><textarea
+                                            rows="3" class="form-control"
+                                            id="question-874849">I've used WordPress REST API to fetch, create, update and delete data such as posts, menus, products, pages etc. For example I have used it to provide a customer with search product results without re-directing them to a search page. </textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3"><label class="form-label small" for="question-874850">15. In
+                                            what
+                                            professional/skill area(s) would a former client say you need to grow or
+                                            improve?</label><textarea rows="3" class="form-control"
+                                            id="question-874850">One piece of feedback I received from a former client was the need to improve my communication when collaborating with non-technical team members or clients. As a Full Stack Developer, I sometimes assume that those I'm speaking with have the same level of technical understanding, which can create a disconnect.
+
+To address this, I’ve actively worked on improving my communication skills. I’ve been engaging in more open discussions with friends and colleagues who are curious about my work, which has helped me explain technical concepts in simpler terms. During these conversations, I make a point to pause and ask if they’re following along, ensuring that I’m communicating effectively and that the message is clear.</textarea>
+                                    </div>
+                                </div>
+                                <div class="row mt-3 mt-sm-4 pb-2 pb-sm-0">
+                                    <div class="col text-center">
+                                        <div><button class="btn btn-outline-primary mx-1"
+                                                type="button">Cancel</button><button class="btn btn-primary mx-1 "
+                                                type="submit"><span>Book Event</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+

@@ -1,0 +1,47 @@
+#footer {
+  // border-top: 1px solid #ccc;
+  // border-bottom: 1px solid #ccc;
+  margin: 0;
+  padding: 20px 0;
+
+  .soc_icons {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+
+    li {
+      color: #333;
+      margin: 0 15px;
+      
+      a {
+        width: 27px;
+        height: 27px;
+
+        i {
+          font-size: 27px;
+          color: $black;
+        }
+
+      }
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    padding: 40px 0;
+    a {
+      display: inline-block;
+    }
+
+    .logo {
+      font-weight: bold;
+      color: $blue;
+      span {
+        color: $blue;
+      }
+    }
+  }
+}

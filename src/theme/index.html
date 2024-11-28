@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Mack Raicevic | Portfolio Site</title>
+
+  
+  <!-- <link rel="preload" as="font" href="fonts/insolata/insolata.css" crossorigin="anonymous">
+  <link rel="preload" as="font" href="fonts/font-awesome/css/font-awesome.min.css" crossorigin="anonymous">
+  <link rel="preload" as="style" href="./bootstrap.min.css" crossorigin="anonymous"/> -->
+
+  <link rel="preload" as="script" href="js/jquery-3.4.0.min.js" />
+
+  <link rel="shortcut icon" href="img/favicon.png">
+
+  <link rel="stylesheet" href="fonts/insolata/insolata.css"  />
+
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="./bootstrap.min.css" />
+
+  <link rel="stylesheet" href="./style.css" />
+
+  
+
+
+  
+  <script src="js/jquery-3.4.0.min.js"></script>
+
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div id="loader"></div>
+
+
+  <canvas id="canvasBg"></canvas>
+
+  <div class="hero-section">
+    <div class="container-fluid">
+      <!-- hide on tablet & mobile -->
+      <div class="row main-nav">
+        <div class="col-md-2 col-lg-3">
+          <a class="logo" href="index.html">MRaicevic<span>();</span></a>
+        </div>
+        <div class="col-md-7 col-lg-6">
+          <ul class="main-nav_list">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#work">WORK</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-lg-3">
+          <ul class="soc_icons">
+            <li>
+              <a href="https://github.com/mackr2015" target="_blank" title="github"><img src="img/icons/github.svg"
+              alt="github icon"></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mackraicevic/" target="_blank" title="linkedin"><img src="img/icons/linkedin.svg"
+                    alt="linkedin icon"></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@maivcoding4727/videos" target="_blank" title="youtube"><img src="img/icons/youtube.svg"
+                    alt="youtube channel icon"></a>
+            </li>
+            <li>
+              <a href="https://www.upwork.com/freelancers/mackraicevic" target="_blank" title="upwork">
+                <img src="img/icons/upwork.svg" alt="upwork icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row branding">
+        <div class="offset-md-1 col-md-8 offset-lg-2 col-lg-6 col-xl-4 end">
+          <div class="typedTitle">
+            <h1></h1>
+          </div>
+          <div class="firstTx">
+            <p></p>
+          </div>
+          <div class="secondTx">
+            <p></p>
+          </div>
+          <div class="btn-scroll animate">
+            <a href="#about" class="btn btn-primary scroll">FIND OUT MORE</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="container pg-section">
+    <div id="about" class="row about">
+      <div class="col-md-12">
+        <h2>About me</h2>
+        <span class="subtitle">Full Stack Web Developer</span>
+      </div>
+
+      <div class="row mid-align pt-4 pb-4">
+        <div class="col-md-6 offset-lg-3 col-lg-3">
+          <img src="img/Profile_IMG.png" alt="Mack Raicevic Full Stack Developer">
+          <!-- <img src="img/Profile_IMG_dark_blue.png" alt="Mack Raicevic Full Stack Developer"> -->
+        </div>
+        <div class="col-md-6 col-lg-5">
+          <div class="about_section">
+            <p class="about_tx">
+              I'm a professional Full Stack Web Developer based in Vancouver BC, Canada. In addition to running my own shop I
+              also work with various web media companies in USA, Canada and Europe. I create user friendly websites and web
+              apps that look great on any device.
+              <br><br>
+              Checkout some of my recent work below and let's get in touch. I will be happy to talk about your project or just
+              answer your questions.
+            </p>
+            <div class="btn-scroll mt-4 mb-4">
+              <a href="#contact" class="btn btn-primary scroll">Let's talk</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid pg-section p-0">
+    <div class="row" id="work">
+      <div class="offset-md-3 col-md-6 offset-xl-4 col-xl-4 center mb-4">
+        <h2 class="title">Recent Work</h2>
+        <p class="pl-4 pr-4">
+          These projects are a direct result of my dedication, hard work and love for the craft. I treat every project and client with
+          equal respect and attention to details.
+        </p>
+      </div>
+      <div class="portfolio">
+
+        <div class="portfolio_project">
+          <a href="https://eastvanstore.com" target="_blank">
+            <img src="img/EastVanStore.jpg" alt="EastVan Store Vancouver">
+            <span class="logo" style="background-image:url('img/EastVan-white-logo.png');"></span>
+          </a>
+        </div>
+
+        <div class="portfolio_project">
+          <a href="https://d3security.com" target="_blank">
+            <img src="img/D3-security.jpg" alt="D3Security Vancouver Cyber Cpmpany">
+            <span class="logo" style="background-image:url('img/D3-security-logo.png');background-size:50%;"></span>
+          </a>
+        </div>
+
+        <div class="portfolio_project">
+          <a href="https://tivat.travel/" target="_blank">
+            <img src="img/tivat.travel.jpg" alt="Tivat Tourist organization">
+            <span class="logo" style="background-image:url('img/tivat.travel.logo2.png');"></span>
+          </a>
+        </div>
+
+        <div class="portfolio_project">
+          <a href="https://opstinativat.me" target="_blank">
+            <img src="img/opstinativat.jpg" alt="Municipality Tivat Montenegro">
+            <span class="logo" style="background-image:url('img/otv-logo-grey.png');background-size:45%;"></span>
+          </a>
+        </div>
+
+
+        <div class="portfolio_project">
+          <a href="https://www.coastmentalhealth.com/" target="_blank">
+            <img src="img/coastmentalhealth.jpg" alt="coast mental health">
+            <span class="logo" style="background-image:url('img/coastmentalhealth-logo.png');"></span>
+          </a>
+        </div>
+
+        <div class="portfolio_project">
+          <a href="https://farmboyfinearts.com/" target="_blank">
+            <img src="img/farmboycurated.jpg" alt="Farmboycurated eCommerce site FBFA">
+            <span class="logo" style="background-image:url('img/fbfa-logo.png');"></span>
+          </a>
+        </div>
+
+        <div class="portfolio_project">
+          <a href="http://serftosurf.com/" target="_blank">
+            <img src="img/serftosurf.jpg" alt="SerftoSurf Organic Cream and Balms">
+            <span class="logo" style="background-image:url('img/serftosurf_logo.png');background-size:35%;"></span>
+          </a>
+        </div>
+
+        <div class="portfolio_project">
+          <a href="https://churchillinvestments.com/" target="_blank">
+            <img src="img/churchill.jpg" alt="churchill investments">
+            <span class="logo" style="background-image:url('img/chruchill-logo.png');background-size:50%;"></span>
+          </a>
+        </div>
+
+        <div class="portfolio_project">
+          <a href="https://vantageliving.ca/" target="_blank">
+            <img src="img/vantageliving.jpg" alt="vantage living">
+            <span class="logo" style="background-image:url('img/vantageliving-logo.png');background-size:50%;"></span>
+          </a>
+        </div>
+
+        <div class="portfolio_project">
+          <a href="https://wealthrocket.com/" target="_blank">
+            <img src="img/wealthrocket.jpg" alt="wealth rocket personal finance">
+            <span class="logo" style="background-image:url('img/wealthrocket-logo.png');background-size:70%;"></span>
+          </a>
+        </div>
+
+        <div class="portfolio_project">
+          <a href="https://pristineroofing.com/" target="_blank">
+            <img src="img/pristineroofing.jpg" alt="pristine roofing Winnipeg Roofing & Siding">
+            <span class="logo" style="background-image:url('img/pristine-logo.png');"></span>
+          </a>
+        </div>
+
+        <div class="portfolio_project">
+          <a href="https://www.totalcarehealth.ca/" target="_blank">
+            <img src="img/totalcare.jpg" alt="Total Health Care">
+            <span class="logo" style="background-image:url('img/total-care-logo.png');background-size:50%;"></span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid p-0">
+    <div class="row" id="contact">
+      <div class="col-md-12 tx-center mb-4">
+        <h3>Let's get to Work</h3>
+        <span class="subtitle">Contact me and book a free consultation</span>
+        <div class="mb-3"></div>
+        <span class="btn btn-primary btn-reveal">Get in touch</span>
+      </div>
+    </div>
+    <div class="row" id="potential_lead">
+      <div class="col-md-8 offset-md-2 center">
+
+        <a href="mailto:mackraicevic@gmail.com">mackraicevic@gmail.com</a>
+
+        <!-- <form action="#" method="post" id="contactForm">
+					<div class="row">
+						<div class="col-md-4 mb-4">
+							<label for="firstLastname">NAME</label>
+							<input type="text" name="firstLastname" id="firstLastname" placeholder="Peter Becker">
+						</div>
+						<div class="col-md-4 mb-4">
+							<label for="titleInp">TITLE</label>
+							<input type="text" name="titleInp" id="titleInp" placeholder="Sales Manager">
+						</div>
+						<div class="col-md-4 mb-4">
+							<label for="companyInp">COMPANY</label>
+							<input type="text" name="companyInp" id="companyInp" placeholder="I-Minerals Inc.">
+						</div>
+						<div class="col-md-4 mb-4">
+							<label for="emailInp">EMAIL</label>
+							<input type="text" name="emailInp" id="emailInp" placeholder="sales@iminerals.com">
+						</div>
+						<div class="col-md-4 mb-4">
+							<label for="phoneInp">PHONE NUMBER</label>
+							<input type="text" name="phoneInp" id="phoneInp" placeholder="604 485 8456">
+						</div>
+						<div class="col-md-4 mb-4">
+							<label for="deadlineInp">PROJECT DEADLINE</label>
+							<input type="text" name="deadline" id="deadlineInp" placeholder="20 Days">
+						</div>
+
+						<div class="col-md-7 mb-4">
+							<label for="budgetSlider">BUDGET</label>
+							<input type="range" name="budgetRange" id="budgetSlider" min="500" max="10000">
+						</div>
+						<div class="col-md-5 mb-4">
+							<span>Estimate:</span>
+							<span>$<span id="budgetEstimate"></span></span>
+						</div>
+
+						<div class="col-md-12">
+							<button class="btn btn-submit">SEND</button>
+						</div>
+
+					</div>
+				</form> -->
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row" id="footer">
+      <div class="col-md-12">
+        <ul class="main-nav_footer">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="col-md-12">
+        <ul class="soc_icons">
+          <li>
+            <a href="https://github.com/mackr2015" 
+            target="_blank" title="github">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/mackraicevic/" 
+            target="_blank" title="linkedin">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@maivcoding4727/videos" 
+            target="_blank" style="width:32px;" title="youtube">
+              <img src="img/icons/youtube.svg" alt="youtube icon" >
+            </a>
+          </li>
+          <li>
+            <a href="https://www.upwork.com/freelancers/mackraicevic" target="_blank" style="width:32px;" title="upwork">
+              <img src="img/icons/upwork-2x.svg" alt="upwork icon" >
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-12">
+        <div class="copyright">
+          <p>Copyright&nbsp;&copy;&nbsp;<span id="year"></span>&nbsp;|&nbsp;
+            <a href="/" class="logo">MRaicevic<span>();</span></a>
+          </p>
+        </div>
+      </div>
+      <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+      </script>
+    </div>
+  </div>
+
+
+  <script src="js/typed.min.js"></script>
+  <script src="js/typed-custom.js"></script>
+  <script src="js/canvas.v2.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

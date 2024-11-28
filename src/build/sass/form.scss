@@ -1,0 +1,40 @@
+#contact {
+	background: #f7f7f7;
+	padding: 40px 0;
+	transition: all .4 ease;
+}
+
+#potential_lead {
+		padding: 40px 0;
+		display: none;
+}
+
+
+#contactForm {
+	label, input {
+		display: block;
+		min-height: 15px;
+		margin: 10px 0;
+		width: 80%;
+	}
+	label {
+		font-weight: bold;
+		text-align: left;
+	}
+	input[type='text'] {
+		border-left: none;
+		border-top: none;
+		border-right: none;
+		border-bottom: 2px solid #969696;
+
+		&:focus {
+			outline: none;
+		}
+
+		
+	}
+	input::placeholder {
+		color: #b3b3b3;
+		// font-style: italic;
+	}
+}

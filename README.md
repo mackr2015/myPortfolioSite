@@ -28,4 +28,9 @@ src/theme/js/canvas.v2.js
 - deleted Nanotech
 - added no auto browser open to gulpfile and ignore messages when see in the browser
 
+### Updates 2025
+
+- changed the order of loading js canvas and main, trying to avoid late loading of canvas animation
+- added new project mbinsurance April 2025
+
 

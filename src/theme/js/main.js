@@ -1,6 +1,6 @@
 $(function(){
 
-	$('#loader').delay(300).fadeOut(900);
+	$('#loader').fadeOut(900);
 
 	
 	$('.main-nav_list li a').each(function(){

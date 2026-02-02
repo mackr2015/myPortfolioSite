@@ -173,14 +173,6 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-/* Sections
-   ========================================================================== */
-/**
- * Remove the margin in all browsers.
- */
-body {
-  margin: 0;
-}
 
 /**
  * Render the `main` element consistently in IE.
@@ -472,11 +464,12 @@ template {
 }
 
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: 'Inconsolata', monospace, sans-serif;
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1.5;
   width: 100%;
   height: 100%;
+  margin: 0;
 }
 
 .subtitle {
@@ -507,9 +500,10 @@ canvas#canvasBg {
 #potential_lead a {
   font-size: 20px;
   text-decoration: none;
-  color: #00bbff;
+  color: #2067CA;
   -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
+  
 }
 #potential_lead a:hover {
   color: #0096cc;
@@ -648,6 +642,11 @@ canvas#canvasBg {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+
+.btn-primary:not(:disabled):not(.disabled):active {
+		background: #16c75f;
+		border: none;
+	}
 .btn-primary:focus, .btn-primary:active, .btn-primary:hover {
   box-shadow: none;
   background: #16c75f;
@@ -681,6 +680,13 @@ canvas#canvasBg {
 #about h2, #about h1, #about h4 {
   text-align: center;
 }
+
+.profile-img {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
 
 .about_tx {
   margin: 20px 0;

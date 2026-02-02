@@ -8,7 +8,6 @@ let gulp          = require('gulp'),
     sass          = require('gulp-sass')(require('sass')),
     autoprefixer  = require('gulp-autoprefixer'),
     sourcemaps    = require('gulp-sourcemaps'),
-    addsrc        = require('gulp-add-src'),
     rename        = require('gulp-rename'),
     cleanCSS      = require('gulp-clean-css'), /* minify css */
     browserSync   = require('browser-sync').create(); 
@@ -51,10 +50,8 @@ function sassCompile(){
   .pipe(sass({ errLogToConsole: true }).on('error', sass.logError))
   .pipe(autoprefixer())
   .pipe(rename('style.css'))
-  .pipe(sourcemaps.write())
-
-  // .pipe(concat('style.css'))
-  .pipe(gulp.dest(dir.theme +'.'))
+  // .pipe(sourcemaps.write())
+  .pipe(gulp.dest(dir.theme))
   .pipe(browserSync.stream())
 }
 

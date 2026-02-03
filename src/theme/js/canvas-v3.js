@@ -101,10 +101,26 @@ function randomColor() {
     return `rgba(${red[Math.floor(Math.random() * red.length)]},${green[Math.floor(Math.random() * green.length)]},${blue[Math.floor(Math.random() * blue.length)]},${opacity[Math.floor(Math.random() * opacity.length)]})`;
 }
 
+
+// Vanilla JS fade out
+function fadeOutLoader() {
+    const loader = document.getElementById('loader');
+    if (!loader) return;
+
+    // Start fade
+    loader.style.opacity = '0';
+
+    // After transition, hide element completely
+    loader.addEventListener('transitionend', () => {
+        loader.style.display = 'none';
+    }, { once: true });
+}
+
 // On window load
 window.onload = function() {
     resizeBg();
     init();
+    fadeOutLoader();
     animate();
 }
 

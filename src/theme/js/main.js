@@ -1,6 +1,5 @@
 $(function(){
 
-	$('#loader').fadeOut(900);
 
 	
 	$('.main-nav_list li a').each(function(){
